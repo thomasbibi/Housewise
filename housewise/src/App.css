@@ -1,0 +1,369 @@
+body{
+    font-family: 'Inter', sans-serif;
+    --left : #cc66ff;
+    --right : #39ac73;
+    --white : #ffffff;
+    --cities : #e6f2ff;
+}
+h1,h2,h3,h4,h5,h6,li,ul,body{
+    margin : 0;
+    padding: 0;
+}
+h1{
+    font-size: 2em;
+    margin: 2px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.head-icons{
+    display: flex;
+    gap: 10px;
+}
+.head-details{
+    display: flex;
+    gap: 15px;
+}
+
+.head-details>p{
+    margin: 2px;
+}
+.head-img{
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+}
+
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+    margin : 15px 0px 40px 0px
+}
+
+.head,.home-nav,.home-content{
+    padding-left: 45px;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+
+.nav-login{
+    position : relative;
+    bottom: 5px;
+}
+
+.nav-button{
+    all: unset;
+    cursor: pointer;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.submit-property{
+    height: 100%;
+    background-color: var(--left);
+    color: var(--white);
+    border: 1px;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+.home-sec{
+    display: flex;
+    
+}
+
+.home-content{
+    position: relative;
+    width: 40%;
+    top: 100px;
+}
+
+.explore-btn{
+    border-radius: 5px;
+    width: 40%;
+}
+
+.explore-btn, .btn{
+    background-color: var(--left);
+    height: 45px;
+    color: var(--white);
+    border: 1px;
+}
+
+.btn{
+    width: 200px;
+}
+
+.home-footer-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 50px 0px;
+    background-color:  var(--cities);
+    height: 150px;
+}
+
+.home-footer-items{
+    box-sizing: border-box;
+}
+
+.home-footer-items>h5 , .services-btn, .icon-cont, .steps-head{
+    text-align: center;
+}
+
+.services-head, .benefits-head{
+    display: flex;
+    align-items: center;
+    gap: 490px;
+}
+
+.services-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 0px;
+}
+
+.card-cont{
+     height: 350px;
+    width: 15%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-cont:hover{
+    background-color: var(--cities);
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px 0px; */
+}
+
+.card-icon{
+    position: relative;
+    top: 4px;
+}
+
+.card-img{
+   height: 100px;
+   margin-top: 30px;
+}
+
+svg{
+    height: 15px;
+    width: 20px;
+}
+
+.services-icon{
+    float: right;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 100px 0px;
+}
+
+.about-items{
+    width: 30%;
+}
+
+.about-img>img{
+    height: 300px;
+}
+
+.head,.about-foot{
+    background-image: linear-gradient(to right, var(--left),  var(--right));
+    background-image: -o-linear-gradient(right, var(--left),  var(--right));
+    background-image: -moz-linear-gradient(right, var(--left),  var(--right));
+    background-image: -webkit-linear-gradient(left, var(--left),  var(--right));
+    background-blend-mode: multiply;
+}
+.about-foot{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.icon-img{
+    height: 120px;
+}
+
+.icon-cont{
+    margin-top: 40px;
+}
+
+.icon-cont>h3,.icon-cont>p{
+    color: var(--white);
+}
+
+/* steps section */
+
+.steps-head{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 155px;
+    margin: 50px 0px;
+}
+
+.steps-card-cont,.benifit-card-cont{
+    width: 33.33%;
+    text-align: center;
+}
+
+.steps-card-items,.benifit-card-items{
+    box-sizing: border-box;
+    text-align: center;
+    width: 60%;
+    margin: 15% auto;
+}
+
+.steps-card-items>h3,.benifit-card-items>h3{
+    margin-bottom: 10px;
+}
+
+.steps-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.steps-card-img,.benifit-card-img{
+    height: 150px;
+}
+
+
+/* benefits section  */
+
+
+.benefits-head{
+    gap: 450px;
+    margin: 60px 0px;
+}
+
+/* advisor section */
+
+.benefits-cards,.founder-cont,.advisor-icons,.founder,.advisors-cards{
+    display: flex;
+}
+.founder-cont-content{
+    width: 50%;
+    color: var(--white);
+}
+
+.founder{
+    align-items: center;
+    gap: 50px;
+}
+.founder-cont-content>h3{
+    text-align: left;
+    margin: 25px 0px;
+}
+
+.advisor-icons{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.advisor-cont{
+    background-image: linear-gradient(to top, var(--left),  var(--right));
+    background-image: -o-linear-gradient(top, var(--left),  var(--right));
+    background-image: -moz-linear-gradient(top, var(--left),  var(--right));
+    background-image: -webkit-linear-gradient(top, var(--left),  var(--right));
+    background-blend-mode: multiply;
+}
+
+.founder-img>img{
+    height: 250px;
+    width: 250px;
+}
+
+.founder-cont{
+padding-top: 100px;
+padding-left: 100px;
+gap: 200px;
+}
+
+.advisor-head>h2{
+    text-align: center;
+    margin-top: 30px;
+    color: var(--white);
+}
+
+.advisors-cards{
+    justify-content: center;
+    gap: 20px;
+}
+
+.advisors-cards-items-1,.advisors-cards-items-2,.advisors-cards-items-3{
+   width: 25%;
+   height: 350px;
+   background-size: cover;
+   background-position: center;
+}
+.advisors-cards-items-1{
+    background-image: url('/assets/advisor-1.jpg');
+}
+.advisors-cards-items-2{
+    background-image: url('/assets/advisor-2.jpg');
+}
+.advisors-cards-items-3{
+    background-color: #000000;
+}
+
+.opaque{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 350px;
+    color: var(--white);
+    padding: 80px 15px;
+    box-sizing: border-box;
+}
+
+.opaque>h3{
+    color: var(--left);
+}
+
+hr{
+    width: 80%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* media queries */
+
+@media screen and (max-width : 480px){
+    hr,
+    .steps-card-cont,
+    .advisors-cards-items-1,.advisors-cards-items-2,.advisors-cards-items-3{
+        width: 100%;        
+    }
+    .advisors-cards,.founder-cont,.founder,.benefits-cards,.founder-cont,.advisor-icons,.founder,.advisors-cards{
+        flex-direction: column;
+        
+    }
+    .advisor-icons{
+        flex-direction: row;
+    }
+ 
+  
+
+}
+
+
+
+
